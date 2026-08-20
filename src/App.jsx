@@ -447,13 +447,11 @@ function App() {
 
         <section className="section-white" id="about">
           <div className="section-header reveal-on-scroll">
-            <div>
               <h2>About Me</h2>
               <p>
                 I'm Pallavi Sabade, a Civil Engineering student passionate about structural design, transportation, architectural planning, and sustainable construction.
               </p>
             </div>
-          </div>
 
           <div className="about-grid reveal-on-scroll">
             <div>
@@ -483,7 +481,7 @@ function App() {
               </div>
               <div>
                 <span>Graduation</span>
-                <strong>2026 (Final Year)</strong>
+                <strong>2027</strong>
               </div>
             </div>
           </div>
@@ -660,10 +658,6 @@ function App() {
                   )}
                 </div>
                 <div className="project-footer">
-                  <div className="project-title-block">
-                    <span>DWG-{project.id.slice(-2).toUpperCase()}</span>
-                    <strong>{project.title.split(' ')[0]}</strong>
-                  </div>
                   <div className="project-tags">
                     {project.tags.map((tag) => (
                       <span key={tag} className="project-chip">
